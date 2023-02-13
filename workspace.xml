@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89f08ccd-b50c-414b-a595-c523aa9e597d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Librarymanagementsystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Librarymanagementsystem/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Librarymanagementsystem/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Librarymanagementsystem/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Librarymanagementsystem/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Librarymanagementsystem/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/addbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/adminhome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/adminregister.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/assignbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/display.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/issuebook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/issuestudent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/navbar1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/studenthome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/studentregister.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/update1.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KWsrhBgjhjHuJxZsreVlOGJXwI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/91998/djangoprojects/Librarymanagementsystem&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89f08ccd-b50c-414b-a595-c523aa9e597d" name="Changes" comment="" />
+      <created>1674101873485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674101873485</updated>
+    </task>
+    <servers />
+  </component>
+</project>

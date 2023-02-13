@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background-color:yellow" >
+<form action="logindata" method="post">
+    {% csrf_token %}
+    <h3 style="color:red" align="center" >{{ data }}</h3>
+    <table align="center" border="0" style="background-color:darkseagreen">
+        <caption><u>****....LOGIN PAGE....****</u></caption>
+        <tr style="color:red"><td>User_Name:</td> <td><input style="background-color:aqua" type="text" name="txtnm"></td></tr>
+        <tr style="color:red"><td>User_Password:</td> <td><input  style="background-color:aqua" type="password" name="txtpas"></td></tr>
+        <tr ><td> <input style="background-color:darksalmon" type="submit" name="txtsub" value="submit"></td>
+        <td style="color:blue"><a href="{% url 'adreg' %}">AdminSignup</a> </td>
+        <td style="color:blue"><a href="{% url 'streg' %}">StudentSignup</a> </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>

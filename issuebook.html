@@ -1,0 +1,36 @@
+{% extends 'navbar.html' %}
+
+
+{% block content %}
+<h3 align="center" style="color:blue"><u>***...Issue_details...***</u>></h3>
+<table align="center" border="2" class="table">
+
+    <tr style="color:maroon">
+        <th>Id</th>
+        <th>Student_Name</th>
+        <th>Book_Name</th>
+        <th>Start_Date</th>
+        <th>End_Date</th>
+        <th>Update</th>
+        <th>Delete</th>
+
+    </tr>
+    {% for i in Issue_data %}
+    <tr style="color:maroon">
+        <td style="color:brown">{{ i.id }}</td>
+        <td style="color:brown">{{ i.Student_Name }}</td>
+        <td style="color:brown">{{ i.Book_Name }}</td>
+        <td style="color:brown">{{ i.Start_Date }}</td>
+        <td style="color:brown">{{ i.End_Date }}</td>
+        <td style="color:brown"><a href="{% url 'upda' i.id %}">update</a></td>
+        <td style="color:brown"><a href="{% url 'delete' i.id %}">delete</a> </td>
+
+    </tr>
+
+
+    {% endfor %}
+
+</table>
+
+
+{% endblock %}

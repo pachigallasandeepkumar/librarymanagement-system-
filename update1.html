@@ -1,0 +1,41 @@
+{% extends 'navbar.html' %}
+{% block content %}
+<h2 align="center">Add Book</h2>
+<form method="post">
+    {% csrf_token %}
+    <table align="center">
+        <tr style="color:navy">
+            <td>Student_Name:</td>
+            <td>
+                <input type="text" value="{{ Issue_data.Student_Name }}" name="txtnm">
+            </td>
+        </tr>
+         <tr style="color:navy">
+             <td>Book_Name:</td>
+             <td>
+                 <select name="txtB">
+                    <option selected style="color:blue">{{ Issue_data.Book_Name }}</option>
+                    {% for i in book  %}
+                        <option style="color:blue">{{ i.Book_Name }}</option>
+                    {% endfor %}
+                </select>
+             </td>
+         </tr>
+
+
+        <tr style="color:navy">
+            <td>Start_Date:</td>
+            <td>
+                <input type="date" name="txtStart">
+                <input type="text"   value="{{ Issue_data.Start_Date }}" disabled>
+            </td>
+            </tr>
+      <tr style="color:navy"><td>End_date:</td>
+        <td>
+            <input type="date" name="txtEnd">
+            <input type="text"  value="{{ Issue_data.End_Date }}" disabled></td></tr>
+
+        <tr><td><input type="submit" name="btnSub" value="Update"></td></tr>
+    </table>
+</form>
+{% endblock %}

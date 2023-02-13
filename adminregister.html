@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background-color:yellow">
+
+<form action="read" method="post">
+    {% csrf_token %}
+
+ <markquee>  <h3 align="center" style="color:red"  >{{data}}</h3> </markquee>
+
+    <table align="center" border="2">
+        <caption style="color:blue"><u>****....Admin Registration....****</u></caption>
+        <tr style="color:red"><td>User_Name:</td> <td><input style="background-color:aqua" type="text" name="txtnm"></td></tr>
+        <tr style="color:red"><td>User_Email:</td> <td><input style="background-color:aqua" type="email" name="txtema"></td></tr>
+        <tr style="color:red"><td>User_Password:</td> <td><input  style="background-color:aqua" type="password" name="txtpas"></td></tr>
+        <tr ><td> <input type="submit" name="txtsub" value="Register"></td></tr>
+    </table>
+</form>
+
+</body>
+</html>

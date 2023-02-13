@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background-color:pink">
+
+<form action="readdata" method="post">
+    {% csrf_token %}
+
+  <h3 style="color:red">{{ data }}</h3>
+
+    <table align="center" border="2">
+        <caption style="color:maroon">****....Student Registration....****</caption>
+        <tr style="color:red"><td>Student_Name:</td> <td><input style="background-color:aqua" type="text" name="txtnm"></td></tr>
+        <tr style="color:red"><td>Student_Phno:</td> <td><input style="background-color:aqua" type="number" name="txtph"></td></tr>
+        <tr style="color:red"><td>Student_Password:</td> <td><input  style="background-color:aqua" type="password" name="txtpas"></td></tr>
+        <tr style="color:red"><td>Student_Semester:</td> <td><input  style="background-color:aqua" type="text" name="txtse"></td></tr>
+        <tr style="color:red"><td> Course:</td>
+            <td>
+               <select name="txtco">
+                    {% for i in Course_data %}
+                       <option>  {{ i.Course_Name }} </option>
+                    {% endfor %}
+               </select>
+            </td></tr>
+        <tr ><td> <input type="submit" name="txtsub" value="submit"></td></tr>
+    </table>
+</form>
+
+</body>
+</html>
